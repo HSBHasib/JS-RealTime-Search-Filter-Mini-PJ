@@ -1,0 +1,40 @@
+/* ১. For Mobile, Phones Dev  */
+@media (max-width: 480px) {
+    .main-content {
+        gap: 15px; 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card {
+        width: 90%;
+        height: 16rem;
+    }
+}
+
+/* For Laptops Dev*/
+@media (max-width: 1024px) {
+    .main-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+/* For Tablets Dev  */
+@media (max-width: 768px) {
+    .main-content {
+        flex-wrap: wrap;
+    }
+    .card {
+        width: 11rem; 
+    }
+}
+
+
+/* For Large Desktops Dev */
+@media (min-width: 1025px) {
+    .main-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
